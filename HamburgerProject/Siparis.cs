@@ -54,10 +54,7 @@ namespace HamburgerProject
                 exMalzemeler = exMalzemeler.Trim(',');
 
                 return string.Format("{0} Menu, x{1} Adet, {2} Boy, ({3}) Toplam : {4}", SeciliMenusu.MenuAdi, Adet, Boyutu.ToString(), exMalzemeler, ToplamTutar.ToString("C2"));
-
             }
-
-
         }
 
 
