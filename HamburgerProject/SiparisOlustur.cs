@@ -71,7 +71,7 @@ namespace HamburgerProject
                 toplamtutar += gelen.ToplamTutar;
             }
             lblToplamTutar.Text = toplamtutar.ToString() + " €";
-            return toplamtutar;
+            return toplamtutar; 
 
         }
 
