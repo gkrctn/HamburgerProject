@@ -54,5 +54,28 @@ namespace HamburgerProject
         private void label1_Click(object sender, EventArgs e)
         {
         }
+
+        private void btnSiparisEkle_Click(object sender, EventArgs e)
+        {
+
+            Siparis yeniSiparis = new Siparis();
+
+        }
+        private decimal TutarHesapla()
+        {
+            decimal toplamtutar = 0;
+
+            for (int i = 0; i < lstSiparisler.Items.Count; i++)
+            {
+                Siparis gelen = (Siparis)lstSiparisler.Items[i];
+                toplamtutar += gelen.ToplamTutar;
+            }
+            lblToplamTutar.Text = toplamtutar.ToString() + " €";
+            return toplamtutar;
+
+        }
+
+
+
     }
 }

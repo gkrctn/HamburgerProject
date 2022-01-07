@@ -128,6 +128,7 @@ namespace HamburgerProject
             this.btnSiparisEkle.TabIndex = 9;
             this.btnSiparisEkle.Text = "Sipariş Ekle";
             this.btnSiparisEkle.UseVisualStyleBackColor = true;
+            this.btnSiparisEkle.Click += new System.EventHandler(this.btnSiparisEkle_Click);
             // 
             // lstSiparisler
             // 
